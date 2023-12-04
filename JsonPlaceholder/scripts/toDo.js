@@ -33,7 +33,7 @@ let displayedInfo = document.getElementById("info")
     displayedInfo.appendChild(title);
     
     let status = document.createElement("p")
-    status.innerText = todo.status
+    status.innerText = todo.completed
     displayedInfo.appendChild(status);
 
 
