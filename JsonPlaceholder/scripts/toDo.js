@@ -21,19 +21,19 @@ let displayedInfo = document.getElementById("info")
     displayedInfo.innerText = "";
 
     let userId = document.createElement("p")
-    userId.innerText = todo.userId
+    userId.innerText = " UserId: " + todo.userId
     displayedInfo.appendChild(userId);
 
     let Id = document.createElement("p")
-    Id.innerText = todo.id
+    Id.innerText = "Id: " + todo.id
     displayedInfo.appendChild(Id);
     
     let title = document.createElement("p")
-    title.innerText = todo.title
+    title.innerText = "Title: " + todo.title
     displayedInfo.appendChild(title);
     
     let status = document.createElement("p")
-    status.innerText = todo.completed
+    status.innerText = "Completed: " + todo.completed
     displayedInfo.appendChild(status);
 
 
